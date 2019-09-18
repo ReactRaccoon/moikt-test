@@ -1,0 +1,22 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  margin: 0;
+  font-family:   "Oxygen","Segoe UI", "Roboto",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+  color: white;
+  transition: .3s ease;
+
+  &:hover{
+    color: white;
+    transition: .3s ease;
+    opacity: .5;
+  }
+}
+
